@@ -57,5 +57,4 @@ const closeNavMobile = () => {
     menuOpenBtn.style.display = "inline-block";
 }
 
-
-menuCloseBtn.addEventListener("click", closeNavMobile)
+menuCloseBtn.addEventListener("click", closeNavMobile);
