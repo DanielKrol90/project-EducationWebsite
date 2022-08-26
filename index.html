@@ -6,19 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- bootstrap icons -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
-    />
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"/>
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
-
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+    <!-- swiper  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <!-- custom styles-->
     <link rel="stylesheet" href="css/style.css" />
 
@@ -287,12 +281,12 @@
     <!-- ? END SECTION FAQS -->
 
     <!-- ! SECTION TESTIMONIALS -->
-    <section class="container testimonials-container">
+    <section class="container testimonials-container mySwiper">
       <h2>Student's Testimonials</h2>
-      <div>
-        <article class="testimonial">
+      <div class="swiper-wrapper">
+        <article class="testimonial swiper-slide">
           <div class="avatar">
-            <img src="images/avatar1.jpg" alt="" />
+            <img src="images/avatars/avatar1.jpg" alt="" />
           </div>
           <div class="testimonials-info">
             <h5>Shane Wood</h5>
@@ -306,13 +300,13 @@
             </p>
           </div>
         </article>
-        <article class="testimonial">
+        <article class="testimonial swiper-slide">
             <div class="avatar">
-              <img src="images/avatar2.jpg" alt="" />
+              <img src="images/avatars/avatar2.jpg" alt="" />
             </div>
             <div class="testimonials-info">
               <h5>Jayden Manning</h5>
-              <small>Student</small>
+              <small>Web Developer</small>
             </div>
             <div class="testimonial-body">
               <p>
@@ -322,13 +316,13 @@
               </p>
             </div>
           </article>
-          <article class="testimonial">
+          <article class="testimonial swiper-slide">
             <div class="avatar">
-              <img src="images/avatar3.jpg" alt="" />
+              <img src="images/avatars/avatar3.jpg" alt="" />
             </div>
             <div class="testimonials-info">
               <h5>Sadie Andrews</h5>
-              <small>Student</small>
+              <small>Frontend Developer</small>
             </div>
             <div class="testimonial-body">
               <p>
@@ -338,13 +332,13 @@
               </p>
             </div>
           </article>
-          <article class="testimonial">
+          <article class="testimonial swiper-slide">
             <div class="avatar">
-              <img src="images/avatar4.jpg" alt="" />
+              <img src="images/avatars/avatar4.jpg" alt="" />
             </div>
             <div class="testimonials-info">
-              <h5>Francis Bryant</h5>
-              <small>Student</small>
+              <h5>Francisca Bryant</h5>
+              <small>Backend Developer</small>
             </div>
             <div class="testimonial-body">
               <p>
@@ -354,13 +348,13 @@
               </p>
             </div>
           </article>
-          <article class="testimonial">
+          <article class="testimonial swiper-slide">
             <div class="avatar">
-              <img src="images/avatar5.jpg" alt="" />
+              <img src="images/avatars/avatar5.jpg" alt="" />
             </div>
             <div class="testimonials-info">
               <h5>Lelia Pearson</h5>
-              <small>Student</small>
+              <small>Fullstack Developer</small>
             </div>
             <div class="testimonial-body">
               <p>
@@ -370,9 +364,9 @@
               </p>
             </div>
           </article>
-          <article class="testimonial">
+          <article class="testimonial swiper-slide">
             <div class="avatar">
-              <img src="images/avatar6.jpg" alt="" />
+              <img src="images/avatars/avatar6.jpg" alt="" />
             </div>
             <div class="testimonials-info">
               <h5>Christine Holloway</h5>
@@ -386,13 +380,13 @@
               </p>
             </div>
           </article>
-          <article class="testimonial">
+          <article class="testimonial swiper-slide">
             <div class="avatar">
-              <img src="images/avatar7.jpg" alt="" />
+              <img src="images/avatars/avatar7.jpg" alt="" />
             </div>
             <div class="testimonials-info">
-              <h5>Addie Cruz</h5>
-              <small>Student</small>
+              <h5>Addiera Cruz</h5>
+              <small>Enginer</small>
             </div>
             <div class="testimonial-body">
               <p>
@@ -403,9 +397,17 @@
             </div>
           </article>
       </div>
+      <div class="swiper-pagination"></div>
     </section>
     <!-- ? END SECTION TESTIMONIALS -->
 
+    <!-- ! SECTION FOOTER -->
+    <!-- ? END SECTION FOOTER -->
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
