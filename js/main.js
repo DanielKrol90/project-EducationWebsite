@@ -12,7 +12,7 @@ faqs.forEach(faq => {
         faq.classList.toggle('open');
 
         // change icon
-        const icon = document.querySelector('.faq-icon i');
+        const icon = faq.querySelector('.faq-icon i');
         if (icon.className === "bi bi-plus-circle") {
             icon.className = "bi bi-dash-circle"
         } else {
