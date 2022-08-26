@@ -1,224 +1,411 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- bootstrap icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
 
     <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- custom styles-->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
 
     <title>Education Website</title>
-</head>
-<body>
-    
+  </head>
+  <body>
     <!-- ! SECTION NAVBAR -->
-        <nav>
-            <div class="container nav-container">
-                <a href="index.html"><h4>Your School</h4></a>
-                <ul class="nav-menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="courses.html">Courses</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-                <button class="open-menu-btn"><i class="bi bi-list"></i></button>
-                <button class="close-menu-btn"><i class="bi bi-x-circle"></i></button>
-            </div>
-        </nav>
+    <nav>
+      <div class="container nav-container">
+        <a href="index.html"><h4>Your School</h4></a>
+        <ul class="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button class="open-menu-btn"><i class="bi bi-list"></i></button>
+        <button class="close-menu-btn"><i class="bi bi-x-circle"></i></button>
+      </div>
+    </nav>
     <!-- ? END SECTION NAVBAR -->
 
     <!-- ! SECTION HEADER -->
-        <header>
-            <div class="container header-container">
-                <div class="header-left">
-                    <h1>Grow your skills to advance your carrer path</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae optio quisquam porro quo quam odit voluptatem voluptatum. Natus, suscipit excepturi.</p>
-                    <a href="courses.html" class="btn btn-primary">Get Started</a>
-                </div>
-                <div class="header-right">
-                    <div class="header-right-image">
-                        <img src="images/header.svg" alt="image of two people talking">
-                    </div>
-                </div>
-            </div>
-        </header>
+    <header>
+      <div class="container header-container">
+        <div class="header-left">
+          <h1>Grow your skills to advance your carrer path</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+            optio quisquam porro quo quam odit voluptatem voluptatum. Natus,
+            suscipit excepturi.
+          </p>
+          <a href="courses.html" class="btn btn-primary">Get Started</a>
+        </div>
+        <div class="header-right">
+          <div class="header-right-image">
+            <img src="images/header.svg" alt="image of two people talking" />
+          </div>
+        </div>
+      </div>
+    </header>
     <!-- ? END SECTION HEADER -->
 
     <!-- ! SECTION CATEGORIES -->
-        <section class="categories">
-            <div class="container categories-container">
-                <div class="categories-left">
-                    <h1>Categories</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, vitae? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa cum minima rerum quae repudiandae vero odio et corporis sequi placeat.</p>
-                    <a href="#" class="btn">Learn More</a>
-                </div>
-                <div class="categories-right">
-                    <article class="category">
-                        <span class="category-icon"><i class="bi bi-currency-bitcoin"></i></span>
-                        <h5>Blockchain</h5>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, et.</p>
-                    </article>
-                    <article class="category">
-                        <span class="category-icon"><i class="bi bi-palette"></i></span>
-                        <h5>Graphic Designer</h5>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, et.</p>
-                    </article>
-                    <article class="category">
-                        <span class="category-icon"><i class="bi bi-currency-dollar"></i></span>
-                        <h5>Finance</h5>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, et.</p>
-                    </article>
-                    <article class="category">
-                        <span class="category-icon"><i class="bi bi-megaphone"></i></span>
-                        <h5>Marketing</h5>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, et.</p>
-                    </article>
-                    <article class="category">
-                        <span class="category-icon"><i class="bi bi-music-note-beamed"></i></span>
-                        <h5>Music</h5>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, et.</p>
-                    </article>
-                    <article class="category">
-                        <span class="category-icon"><i class="bi bi-briefcase"></i></span>
-                        <h5>Business</h5>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, et.</p>
-                    </article>
-                </div>
-            </div>
-        </section>
+    <section class="categories">
+      <div class="container categories-container">
+        <div class="categories-left">
+          <h1>Categories</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime,
+            vitae? Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Culpa cum minima rerum quae repudiandae vero odio et corporis sequi
+            placeat.
+          </p>
+          <a href="#" class="btn">Learn More</a>
+        </div>
+        <div class="categories-right">
+          <article class="category">
+            <span class="category-icon"
+              ><i class="bi bi-currency-bitcoin"></i
+            ></span>
+            <h5>Blockchain</h5>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Voluptatibus, et.
+            </p>
+          </article>
+          <article class="category">
+            <span class="category-icon"><i class="bi bi-palette"></i></span>
+            <h5>Graphic Designer</h5>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Voluptatibus, et.
+            </p>
+          </article>
+          <article class="category">
+            <span class="category-icon"
+              ><i class="bi bi-currency-dollar"></i
+            ></span>
+            <h5>Finance</h5>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Voluptatibus, et.
+            </p>
+          </article>
+          <article class="category">
+            <span class="category-icon"><i class="bi bi-megaphone"></i></span>
+            <h5>Marketing</h5>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Voluptatibus, et.
+            </p>
+          </article>
+          <article class="category">
+            <span class="category-icon"
+              ><i class="bi bi-music-note-beamed"></i
+            ></span>
+            <h5>Music</h5>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Voluptatibus, et.
+            </p>
+          </article>
+          <article class="category">
+            <span class="category-icon"><i class="bi bi-briefcase"></i></span>
+            <h5>Business</h5>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Voluptatibus, et.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
     <!-- ? END SECTION CATEGORIES -->
 
     <!-- ! SECTION COURSES -->
     <section class="courses">
-        <h2>Our Popular Courses</h2>
-        <div class="container courses-container">
-            <article class="course">
-                <div>
-                    <img src="images/courses/course1.jpg">
-                </div>
-                <div class="course-info">
-                    <h4>Responsive Social Media Website UI Design</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ad accusamus beatae molestiae placeat earum numquam?</p>
-                    <a href="courses.html" class="btn btn-primary">Learn More</a>
-                </div>
-            </article>
-            <article class="course">
-                <div>
-                    <img src="images/courses/course2.jpg">
-                </div>
-                <div class="course-info">
-                    <h4>Responsive SmartHome Website Design</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ad accusamus beatae molestiae placeat earum numquam?</p>
-                    <a href="courses.html" class="btn btn-primary">Learn More</a>
-                </div>
-            </article>
-            <article class="course">
-                <div>
-                    <img src="images/courses/course3.jpg">
-                </div>
-                <div class="course-info">
-                    <h4>Responsive Admin Dashboard UI Design</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ad accusamus beatae molestiae placeat earum numquam?</p>
-                    <a href="courses.html" class="btn btn-primary">Learn More</a>
-                </div>
-            </article>
-        </div>
+      <h2>Our Popular Courses</h2>
+      <div class="container courses-container">
+        <article class="course">
+          <div>
+            <img src="images/courses/course1.jpg" />
+          </div>
+          <div class="course-info">
+            <h4>Responsive Social Media Website UI Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+              ad accusamus beatae molestiae placeat earum numquam?
+            </p>
+            <a href="courses.html" class="btn btn-primary">Learn More</a>
+          </div>
+        </article>
+        <article class="course">
+          <div>
+            <img src="images/courses/course2.jpg" />
+          </div>
+          <div class="course-info">
+            <h4>Responsive SmartHome Website Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+              ad accusamus beatae molestiae placeat earum numquam?
+            </p>
+            <a href="courses.html" class="btn btn-primary">Learn More</a>
+          </div>
+        </article>
+        <article class="course">
+          <div>
+            <img src="images/courses/course3.jpg" />
+          </div>
+          <div class="course-info">
+            <h4>Responsive Admin Dashboard UI Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+              ad accusamus beatae molestiae placeat earum numquam?
+            </p>
+            <a href="courses.html" class="btn btn-primary">Learn More</a>
+          </div>
+        </article>
+      </div>
     </section>
     <!-- ? END SECTION COURSES -->
 
     <!-- ! SECTION FAQS -->
     <section class="faqs">
-        <h2>Frequently Asked Questions</h2>
-        <div class="container faqs-container">
-            <article class="faq">
-                <div class="faq-icon"><i class="bi bi-plus-circle"></i></div>
-                <div class="question-answer">
-                    <h4>How do I know the right courses for me?</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At consequuntur rerum omnis beatae cum? Praesentium quae reiciendis non quas ipsa? Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, ducimus?</p>
-                </div>
-            </article>
-            <article class="faq">
-                <div class="faq-icon"><i class="bi bi-plus-circle"></i></div>
-                <div class="question-answer">
-                    <h4>After course do I get any certificate?</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At consequuntur rerum omnis beatae cum? Praesentium quae reiciendis non quas ipsa? Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, ducimus?</p>
-                </div>
-            </article>
-            <article class="faq">
-                <div class="faq-icon"><i class="bi bi-plus-circle"></i></div>
-                <div class="question-answer">
-                    <h4>Do I get refund if the course isn't worth my money?</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At consequuntur rerum omnis beatae cum? Praesentium quae reiciendis non quas ipsa? Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, ducimus?</p>
-                </div>
-            </article>
-            <article class="faq">
-                <div class="faq-icon"><i class="bi bi-plus-circle"></i></div>
-                <div class="question-answer">
-                    <h4>Will I Habe lifetime access to courses I purchased?</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At consequuntur rerum omnis beatae cum? Praesentium quae reiciendis non quas ipsa? Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, ducimus?</p>
-                </div>
-            </article>
-            <article class="faq">
-                <div class="faq-icon"><i class="bi bi-plus-circle"></i></div>
-                <div class="question-answer">
-                    <h4>Will you assist me to get my first job?</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At consequuntur rerum omnis beatae cum? Praesentium quae reiciendis non quas ipsa? Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, ducimus?</p>
-                </div>
-            </article>
-            <article class="faq">
-                <div class="faq-icon"><i class="bi bi-plus-circle"></i></div>
-                <div class="question-answer">
-                    <h4>What are your payment options?</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At consequuntur rerum omnis beatae cum? Praesentium quae reiciendis non quas ipsa? Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, ducimus?</p>
-                </div>
-            </article>
-            <article class="faq">
-                <div class="faq-icon"><i class="bi bi-plus-circle"></i></div>
-                <div class="question-answer">
-                    <h4>Where are the requirements to start?</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At consequuntur rerum omnis beatae cum? Praesentium quae reiciendis non quas ipsa? Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, ducimus?</p>
-                </div>
-            </article>
-            <article class="faq">
-                <div class="faq-icon"><i class="bi bi-plus-circle"></i></div>
-                <div class="question-answer">
-                    <h4>Do I get all source code from projects?</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At consequuntur rerum omnis beatae cum? Praesentium quae reiciendis non quas ipsa? Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, ducimus?</p>
-                </div>
-            </article>
-        </div>
+      <h2>Frequently Asked Questions</h2>
+      <div class="container faqs-container">
+        <article class="faq">
+          <div class="faq-icon"><i class="bi bi-plus-circle"></i></div>
+          <div class="question-answer">
+            <h4>How do I know the right courses for me?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+              consequuntur rerum omnis beatae cum? Praesentium quae reiciendis
+              non quas ipsa? Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Perspiciatis, ducimus?
+            </p>
+          </div>
+        </article>
+        <article class="faq">
+          <div class="faq-icon"><i class="bi bi-plus-circle"></i></div>
+          <div class="question-answer">
+            <h4>After course do I get any certificate?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+              consequuntur rerum omnis beatae cum? Praesentium quae reiciendis
+              non quas ipsa? Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Perspiciatis, ducimus?
+            </p>
+          </div>
+        </article>
+        <article class="faq">
+          <div class="faq-icon"><i class="bi bi-plus-circle"></i></div>
+          <div class="question-answer">
+            <h4>Do I get refund if the course isn't worth my money?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+              consequuntur rerum omnis beatae cum? Praesentium quae reiciendis
+              non quas ipsa? Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Perspiciatis, ducimus?
+            </p>
+          </div>
+        </article>
+        <article class="faq">
+          <div class="faq-icon"><i class="bi bi-plus-circle"></i></div>
+          <div class="question-answer">
+            <h4>Will I Habe lifetime access to courses I purchased?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+              consequuntur rerum omnis beatae cum? Praesentium quae reiciendis
+              non quas ipsa? Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Perspiciatis, ducimus?
+            </p>
+          </div>
+        </article>
+        <article class="faq">
+          <div class="faq-icon"><i class="bi bi-plus-circle"></i></div>
+          <div class="question-answer">
+            <h4>Will you assist me to get my first job?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+              consequuntur rerum omnis beatae cum? Praesentium quae reiciendis
+              non quas ipsa? Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Perspiciatis, ducimus?
+            </p>
+          </div>
+        </article>
+        <article class="faq">
+          <div class="faq-icon"><i class="bi bi-plus-circle"></i></div>
+          <div class="question-answer">
+            <h4>What are your payment options?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+              consequuntur rerum omnis beatae cum? Praesentium quae reiciendis
+              non quas ipsa? Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Perspiciatis, ducimus?
+            </p>
+          </div>
+        </article>
+        <article class="faq">
+          <div class="faq-icon"><i class="bi bi-plus-circle"></i></div>
+          <div class="question-answer">
+            <h4>Where are the requirements to start?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+              consequuntur rerum omnis beatae cum? Praesentium quae reiciendis
+              non quas ipsa? Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Perspiciatis, ducimus?
+            </p>
+          </div>
+        </article>
+        <article class="faq">
+          <div class="faq-icon"><i class="bi bi-plus-circle"></i></div>
+          <div class="question-answer">
+            <h4>Do I get all source code from projects?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+              consequuntur rerum omnis beatae cum? Praesentium quae reiciendis
+              non quas ipsa? Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Perspiciatis, ducimus?
+            </p>
+          </div>
+        </article>
+      </div>
     </section>
     <!-- ? END SECTION FAQS -->
 
-     <!-- ! SECTION TESTIMONIALS -->
-     <section class="container testimonials-container">
-        <h2>Student's Testimonials </h2>
-        <div>
-            <article class="testimonial">   
-                <div class="avatar">
-                    <img src="images/" alt="">
-                </div>
-            </article>
-        </div>
-     </section>
-      <!-- ? END SECTION TESTIMONIALS -->
-
-
-
-
-
-
-
+    <!-- ! SECTION TESTIMONIALS -->
+    <section class="container testimonials-container">
+      <h2>Student's Testimonials</h2>
+      <div>
+        <article class="testimonial">
+          <div class="avatar">
+            <img src="images/avatar1.jpg" alt="" />
+          </div>
+          <div class="testimonials-info">
+            <h5>Shane Wood</h5>
+            <small>Student</small>
+          </div>
+          <div class="testimonial-body">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint,
+              quam! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Quos, excepturi!
+            </p>
+          </div>
+        </article>
+        <article class="testimonial">
+            <div class="avatar">
+              <img src="images/avatar2.jpg" alt="" />
+            </div>
+            <div class="testimonials-info">
+              <h5>Jayden Manning</h5>
+              <small>Student</small>
+            </div>
+            <div class="testimonial-body">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint,
+                quam! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quos, excepturi!
+              </p>
+            </div>
+          </article>
+          <article class="testimonial">
+            <div class="avatar">
+              <img src="images/avatar3.jpg" alt="" />
+            </div>
+            <div class="testimonials-info">
+              <h5>Sadie Andrews</h5>
+              <small>Student</small>
+            </div>
+            <div class="testimonial-body">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint,
+                quam! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quos, excepturi!
+              </p>
+            </div>
+          </article>
+          <article class="testimonial">
+            <div class="avatar">
+              <img src="images/avatar4.jpg" alt="" />
+            </div>
+            <div class="testimonials-info">
+              <h5>Francis Bryant</h5>
+              <small>Student</small>
+            </div>
+            <div class="testimonial-body">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint,
+                quam! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quos, excepturi!
+              </p>
+            </div>
+          </article>
+          <article class="testimonial">
+            <div class="avatar">
+              <img src="images/avatar5.jpg" alt="" />
+            </div>
+            <div class="testimonials-info">
+              <h5>Lelia Pearson</h5>
+              <small>Student</small>
+            </div>
+            <div class="testimonial-body">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint,
+                quam! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quos, excepturi!
+              </p>
+            </div>
+          </article>
+          <article class="testimonial">
+            <div class="avatar">
+              <img src="images/avatar6.jpg" alt="" />
+            </div>
+            <div class="testimonials-info">
+              <h5>Christine Holloway</h5>
+              <small>Student</small>
+            </div>
+            <div class="testimonial-body">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint,
+                quam! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quos, excepturi!
+              </p>
+            </div>
+          </article>
+          <article class="testimonial">
+            <div class="avatar">
+              <img src="images/avatar7.jpg" alt="" />
+            </div>
+            <div class="testimonials-info">
+              <h5>Addie Cruz</h5>
+              <small>Student</small>
+            </div>
+            <div class="testimonial-body">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint,
+                quam! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quos, excepturi!
+              </p>
+            </div>
+          </article>
+      </div>
+    </section>
+    <!-- ? END SECTION TESTIMONIALS -->
 
     <script src="js/main.js"></script>
-</body>
+  </body>
 </html>
