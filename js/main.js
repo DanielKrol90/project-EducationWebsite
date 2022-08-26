@@ -36,3 +36,26 @@ var swiper = new Swiper(".mySwiper", {
         }
     }
   });
+
+//   show/open nav menu mobile
+
+const menu = document.querySelector(".nav-menu");
+const menuOpenBtn = document.querySelector("#open-menu-btn");
+const menuCloseBtn = document.querySelector("#close-menu-btn");
+
+menuOpenBtn.addEventListener("click",() => {
+    menu.style.display = "flex";
+    menuCloseBtn.style.display = "inline-block";
+    menuOpenBtn.style.display = "none";
+});
+
+// close nav menu mobile
+
+const closeNavMobile = () => {
+    menu.style.display = "none";
+    menuCloseBtn.style.display = "none";
+    menuOpenBtn.style.display = "inline-block";
+}
+
+
+menuCloseBtn.addEventListener("click", closeNavMobile)
