@@ -537,7 +537,7 @@ footer .footer-socials {
     }
     /* header */
     header {
-        height: 100vh;
+        height: auto;
     }
     .header-container {
         grid-template-columns: 1fr;
@@ -547,22 +547,55 @@ footer .footer-socials {
     .header-left p {
         margin-bottom: 1.3rem;
     }
-    /* category */
+    .header-right {
+        padding-bottom: 0.8rem;
+    }
+    .header-right-image img{
+        margin-bottom: 0.8rem;
+    }
+    /* categories */
+    .categories {
+        padding-top: 2rem;
+    }
+    .categories-left {
+        text-align: center;
+        margin: 0;
+    }
     .categories-right {
         grid-template-columns: 1fr 1fr;
         gap: 0.7rem;
+        width: 100%;
     }
     .category {
-        padding: 1rem;
-        border-radius: 1rem;
+        padding: 0.5rem;
+        border-radius: 0.8rem;
+        display: flex;
+        flex-direction: column;
+        width: 96%;
+    }
+    .category h5 {
+        margin: 0.6rem;
     }
     .category-icon {
-        margin-top: 4px;
-        display: inline-block;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .category-icon i {
+        display: flex;
+        justify-content: center;
+        
     }
     /* courses */
     .courses-container {
         grid-template-columns: 1fr;
+    }
+    /* faqs */
+    .faqs > h2 {
+        padding: 0 0.5rem;
+    }
+    .faqs .question-answer > h4 {
+        line-height: 1.2rem;
+        padding: 0;
     }
     /* testimonials */
     .testimonial-body {
