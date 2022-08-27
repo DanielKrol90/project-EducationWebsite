@@ -10,7 +10,7 @@
     gap: 5rem;
 }
 
-.about-achivements-right > p {
+.about-achievement-right > p {
     margin: 1.6rem 0 2.5rem;
 }
 
@@ -48,4 +48,8 @@
 
 .achievement-card:nth-child(3) .achievement-icon {
     background: var(--color-primary);
+}
+
+.achievement-card p {
+    margin-top: 1rem;
 }
