@@ -1,6 +1,7 @@
-One of many project for learning purpose.
-Focused on learning how to use a rem in css and media query with display:grid on sections.
-Using basic javascript for navbar for mobile version.
+One of many project for learning purpose.<br>
+Focused on learning how to use a rem in css and media query with display:grid on sections. <br>
+Using basic javascript for navbar for mobile version.<br>
+Adden swiper for testimonies with lib.swiperjs
 
 link to page: https://education-webpage.netlify.app/
 
