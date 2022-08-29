@@ -53,18 +53,18 @@ const menu = document.querySelector(".nav-menu");
 const menuOpenBtn = document.querySelector("#open-menu-btn");
 const menuCloseBtn = document.querySelector("#close-menu-btn");
 
-menuOpenBtn.addEventListener("click", () => {
+const openNavMobile = () => {
   menu.style.display = "flex";
   menuCloseBtn.style.display = "inline-block";
   menuOpenBtn.style.display = "none";
-});
-
-// close nav menu mobile
+};
 
 const closeNavMobile = () => {
   menu.style.display = "none";
   menuCloseBtn.style.display = "none";
   menuOpenBtn.style.display = "inline-block";
+  
 };
 
+menuOpenBtn.addEventListener("click", openNavMobile);
 menuCloseBtn.addEventListener("click", closeNavMobile);
