@@ -597,6 +597,9 @@ footer .footer-socials {
         line-height: 1.2rem;
         padding: 0;
     }
+    .faqs .faq.open .question-answer > p {
+        font-size: 0.8rem;
+    }
     /* testimonials */
     .testimonial-body {
         padding: 1.2rem;
