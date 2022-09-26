@@ -1,4 +1,8 @@
-One of many project for learning purpose.<br>
+Project Model created on youtube channel: https://www.youtube.com/c/JavaScriptMastery <br>
+Project Leader/UT Content Creator: https://github.com/adrianhajdin <br>
+Project created by Me is based on Project from UT Channel link above. <br>
+Project created for learning purpose's. <br>
+
 Focused on learning how to use a rem in css and media query with display:grid on sections. <br>
 Using basic javascript for navbar for mobile version.<br>
 Adden swiper for testimonies with lib.swiperjs
